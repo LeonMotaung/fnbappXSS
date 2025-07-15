@@ -38,11 +38,9 @@ Step 2: Paste & Run the Script
 js
 Copy
 Edit
-// Get all question IDs from navigation
 const questionLinks = document.querySelectorAll('.ays_questions_nav_question');
 const questionIDs = Array.from(questionLinks).map(el => el.dataset.id);
 
-// Result object
 const results = {};
 
 questionIDs.forEach(qid => {
